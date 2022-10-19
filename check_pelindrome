@@ -1,10 +1,10 @@
 let str = "madam";
-let bag = "";
+let new_str = "";
 len n = str.length
 for(let i=n-1;i>=0;i--){
-	bag += str[i];
+	new_str += str[i];
 }
-if(bag == str){
+if(new_str == str){
 console.log("Palindrome");
 }else{
 console.log("Noy A Palindrome");
